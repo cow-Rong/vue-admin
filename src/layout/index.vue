@@ -14,9 +14,9 @@
         <TagsNav />
       </div>
       <div class="main-content">
-        <el-scrollbar wrap-class="scrollbar">
-          <MainView />
-        </el-scrollbar>
+        <!-- <el-scrollbar wrap-class="scrollbar"> -->
+        <MainView />
+        <!-- </el-scrollbar> -->
       </div>
     </div>
   </div>
@@ -112,6 +112,7 @@ export default {
       width: calc(100% - 64px);
     }
     .main-content{
+      height: calc(100% - 104px);
       .el-scrollbar{
         height: calc(100vh - 64px - 40px);
         .scroll-bar;

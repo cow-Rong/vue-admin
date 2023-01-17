@@ -24,6 +24,7 @@ export default {
 
 <style lang="less">
 .main-view {
+  height: 100%;
   padding: 15px 25px;
   box-sizing: border-box;
 }
